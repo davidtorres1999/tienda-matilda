@@ -87,16 +87,34 @@ section#redes-sociales{
     transform: scale(1.05);
 }
 
-@media (max-width: 768px){
+@media (max-width: 650px){
+
+    /* header */
+    h1#nombre{
+        font-size: 35px;
+    }
+
+    /* nav */
+
+    nav#menu-navegacion a{
+        font-size: 13px;
+        padding: 0 10px;
+    }
 
     /* footer */
 
+    footer{
+        position: static;
+        height: 40px;
+    }
+
     footer h3{
-        font-size: 20px;
+        display: none;
     }
 
     section#redes-sociales{
-        width: 280px;
-        font-size: 16px;
+        width: 100%;
+        font-size: 17px;
+        margin-right: 15px;
     }
 }

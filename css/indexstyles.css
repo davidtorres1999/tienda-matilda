@@ -271,10 +271,10 @@ article#bowls:hover{
     transform: scale(1.1);
 }
 
-@media (max-width: 768px){
+@media (max-width: 650px){
 
     main{
-        height: 1720px;
+        height: 1400px;
     }
 
     /* presentacion */
@@ -284,35 +284,43 @@ article#bowls:hover{
     }
 
     section#presentacion{
-        height: 400px;
+        height: 300px;
     }
 
     section#slider{
-        width: 500px;
-        height: 335px;
+        width: 330px;
+        height: 220px;
     }
 
     /* sobre nosotras */
 
     section#about{
         flex-direction: column;
-        height: 600px;
+        height: 500px;
     }
 
     #about p{
-        font-size: 16px;
-        width: 80%;
+        font-size: 12px;
+        width: 85%;
         height: 35%;
     }
 
     #about iframe{
-        height: 50%;
-        width: 80%;
+        height: 45%;
+        width: 90%;
     }
 
     /* productos */
 
+    section#productos{
+        height: 600px;
+    }
+
+    section#productos article{
+        height: 100px;
+    }
+
     section#productos a{
-        font-size: 50px;
+        font-size: 35px;
     }
 }

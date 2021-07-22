@@ -61,7 +61,7 @@ figcaption{
     text-align: justify;
 }
 
-@media (max-width: 768px){
+@media (max-width: 650px){
 
     main::before{
         height: 5650px;
