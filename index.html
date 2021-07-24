@@ -37,11 +37,14 @@
 <body>
     <header>
         <h1 id="nombre">Tienda Matilda</h1>
+        <i id="menu-hamburguesa" class="fas fa-bars"></i>
     </header>
     <nav id="menu-navegacion">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="#about">SOBRE NOSOTRAS</a></li>
-        <li><a href="productos.html">PRODUCTOS</a></li>
+        <ul id="navegacion">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a id="btn-sobrenosotras" href="#about">SOBRE NOSOTRAS</a></li>
+            <li><a href="productos.html">PRODUCTOS</a></li>
+        </ul>
     </nav>
     <main>
         <section id="presentacion">
@@ -57,8 +60,13 @@
 
         <section id="about">
             <p id="descripcion">
-                Hola! Somos Sonia y Florencia, madre e hija, creadoras de "MATILDA". Matilda un emprendimiento familiar de
-                productos cerámicos que comenzó en la ciudad de Río Tercero por allá en el año 2019 como un hobbie. Luego de un tiempo comenzamos a pensar que eso que tanto nos gustaba a nosotras, podría gustarle también al resto. Nuestro siguiente paso fue animarnos a dar talleres de algunas técnicas en particular. Con el tiempo decidimos comenzar a fabricar productos que fueran únicos y hechos a mano, logrando así que cada pieza que creamos lleve consigo una partecita de nosotras, nuestra pasión y nuestro amor.
+                Hola! Somos Sonia y Florencia, madre e hija, creadoras de "MATILDA". Matilda un emprendimiento familiar
+                de
+                productos cerámicos que comenzó en la ciudad de Río Tercero por allá en el año 2019 como un hobbie.
+                Luego de un tiempo comenzamos a pensar que eso que tanto nos gustaba a nosotras, podría gustarle también
+                al resto. Nuestro siguiente paso fue animarnos a dar talleres de algunas técnicas en particular. Con el
+                tiempo decidimos comenzar a fabricar productos que fueran únicos y hechos a mano, logrando así que cada
+                pieza que creamos lleve consigo una partecita de nosotras, nuestra pasión y nuestro amor.
             </p>
             <iframe id="ubicacion"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38209.10251475154!2d-64.14051308843504!3d-32.170817499734234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd6f24cc9b6e75%3A0xf31e908957e0133!2zUsOtbyBUZXJjZXJvLCBDw7NyZG9iYQ!5e0!3m2!1ses!2sar!4v1626661007168!5m2!1ses!2sar"
@@ -99,6 +107,9 @@
             TIENDA MATILDA
         </h3>
     </footer>
+    
+    <!-- JAVASCRIPT -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

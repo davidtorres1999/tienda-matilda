@@ -18,7 +18,11 @@ footer {
 }
 /* Estilos header */
 
-nav#menu-navegacion {
+i#menu-hamburguesa{
+    display: none;
+}
+
+nav{
     position: sticky;
     top: -10px;
     height: 50px;
@@ -26,9 +30,16 @@ nav#menu-navegacion {
     font-family: 'Otomanopee One', sans-serif;
     font-size: 18px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
+
+nav ul#navegacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 nav::before{
     content:"";
@@ -89,16 +100,59 @@ section#redes-sociales{
 
 @media (max-width: 650px){
 
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     /* header */
     h1#nombre{
         font-size: 35px;
+        margin-left: 10px;
+    }
+
+    i#menu-hamburguesa{
+        position: fixed;
+        right: 0;
+        text-shadow:  2px 2px 1px #000, -2px 2px 1px #000;
+        display: inline;
+        font-size: 30px;
+        color: #fff;
+        margin-right: 10px;
+        z-index: 4;
     }
 
     /* nav */
+    nav{
+        display: none;
+    }
 
     nav#menu-navegacion a{
-        font-size: 13px;
+        font-size: 16px;
         padding: 0 10px;
+    }
+
+    nav#menu-navegacion ul{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .menu-visible{
+        display: block;
+        position: fixed;
+        background-color: rgba(100, 24, 100, 0.918);
+        right: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50%;
+        height: 105vh;
+        z-index: 3;
     }
 
     /* footer */
