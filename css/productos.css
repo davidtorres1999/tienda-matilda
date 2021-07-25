@@ -64,7 +64,11 @@ figcaption{
 @media (max-width: 650px){
 
     main::before{
-        height: 5650px;
+        height: 5660px;
+    }
+
+    section#compoteras{
+        padding-top: 45px;
     }
 
     /* imagenes */

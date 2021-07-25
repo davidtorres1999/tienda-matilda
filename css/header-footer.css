@@ -101,9 +101,11 @@ section#redes-sociales{
 @media (max-width: 650px){
 
     header{
+        position: fixed;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        z-index: 4;
     }
 
     /* header */
@@ -120,7 +122,7 @@ section#redes-sociales{
         font-size: 30px;
         color: #fff;
         margin-right: 10px;
-        z-index: 4;
+        z-index: 5;
     }
 
     /* nav */
