@@ -1,3 +1,5 @@
+window.addEventListener( 'DOMContentLoaded' , function(){
+
 /* Despliegue de menú hamburguesa */
 const barraNavegacion = document.querySelector("#menu-navegacion");
 const menuHamburguesa = document.querySelector("#menu-hamburguesa");
@@ -9,4 +11,6 @@ menuHamburguesa.addEventListener("click",function(){
 
 btnSobreNosotras.addEventListener("click",function(){
     barraNavegacion.classList.toggle('menu-visible');
+});
+
 });
