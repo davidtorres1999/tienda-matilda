@@ -75,7 +75,7 @@ h1#nombre {
 /* Estilos footer */
 
 footer h3{
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 20px;
     font-weight: normal;
     text-shadow:  2px 2px 1px #fff;
@@ -83,7 +83,7 @@ footer h3{
 
 section#redes-sociales{
     width: 320px;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     margin-left: 15px;
     letter-spacing: 3px;
@@ -151,7 +151,6 @@ section#redes-sociales{
         background-color: rgba(100, 24, 100, 0.918);
         right: 0;
         flex-direction: column;
-        justify-content: flex-start;
         width: 50%;
         height: 105vh;
         z-index: 3;
